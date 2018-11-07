@@ -1,0 +1,34 @@
+.box { 
+    width: 880px;
+    height: 330px;
+    border-radius: .5em;
+}
+
+
+
+
+/*   MOBILE    */
+@media (max-width:768px) {
+    .mobile-question {
+	width:100px;
+	padding:15px
+	}
+
+	.mobile-images {
+	width:175px;
+	}
+}
+
+
+@media (min-width:768px) {
+.desktop-question {
+	width:100px;
+	padding-top:125px;
+	height:auto;
+	}
+
+.desktop-images {
+	width:350px;
+	height:auto;
+	}
+}

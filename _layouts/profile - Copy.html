@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>{{ page.titre }}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4 w3-margin-right">
+	  		<h2><span><img class="level" src="../assets/{{page.heros-level}}.jpg" alt="image">{{page.heros-name}}, <i>{{page.heros-titre}}</i></span></h2>
+        <div class="w3-display-container" align="center">
+          <img class = "img-fluid" src="{{page.avatar-image}}" alt="Avatar">
+        </div>		
+		
+        <div class="w3-container">
+		  <div style="margin:15px"><i style="font-size: 13px">"{{page.ambiance}}"</i></div>
+          <p><i class="fa fa-gamepad fa-fw w3-margin-right w3-large w3-text-teal"></i>Gamer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Paris, FR</p>
+          <hr>
+
+		<!-- SKILLS -->
+          <p class="w3-large"><b><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-teal"></i>Skills</b><a href="ctabeta.html"><i title="Editer mes compétences" class="fa fa-edit fa-fw w3-margin-right w3-large w3-text-gray" style="float:right"></a></i></p>
+		  
+          <div class="w3-container">
+			<div class="w3-third">
+				<div class="w3-right w3-margin-right w3-margin-bottom">{{page.Skill-1}}</div></br>
+				<div class="w3-right w3-margin-right w3-margin-bottom">{{page.Skill-2}}</div></br>
+				<div class="w3-right w3-margin-right w3-margin-bottom">{{page.Skill-3}}</div></br>
+			</div>
+			<div class="w3-twothird">
+				<div class="w3-light-grey w3-round-xlarge w3-small">
+					<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:{{page.Level-Skill-1}}%">{{page.Level-Skill-1}}%</div>
+				</div></br>
+				<div class="w3-light-grey w3-round-xlarge w3-small">
+					<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:{{page.Level-Skill-2}}%">{{page.Level-Skill-2}}%</div>
+				</div></br>
+				<div class="w3-light-grey w3-round-xlarge w3-small">
+					<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:{{page.Level-Skill-3}}%">{{page.Level-Skill-3}}%</div>
+				</div></br>
+			</div>
+		  </div>
+          
+          
+
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div  title="Mettre à jour ma carrière de gamer" class="w3-container w3-card w3-white w3-margin-bottom w3-margin-right">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-gamepad fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Ta carrière de joueur<a href="ctabeta.html"><i class="fa fa-edit fa-fw w3-margin-right w3-large w3-text-gray" style="float:right"></a></i></h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>God of War 4</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Juillet 2018 - <span class="w3-tag w3-teal w3-round">en cours</span></h6>
+          <p><b>Mon opinion :</b> bonne évolution d'une licence qui fatiguait un peu. Moteur graphique qui montre que la PS4 en a encore dans le ventre.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Monster Hunter World</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Avril 2018 - Juillet 2018</h6>
+          <p><b>Mon opinion :</b> Capcom a enfin réussi à rendre la chasse aux monstres accessibles tout en conservant le charme de la série. Diablo m'a valu quelques cheveux en moins mais quel plaisir de le vaincre !  </p>
+		  <p><b>Facts :</b> 72h de jeu [PS4] + déblocage du trophée "Platine"</p>
+          <hr>
+        </div>
+      </div>
+
+			<!-- Recommendations -->
+			<div class="w3-half">
+			  <div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-right">
+				<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-trophy fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Ton Top 5</h2>
+				<div class="w3-container">
+					<img class="img-fluid jaquette" src="{{page.suggestion-1}}">
+					<img class="img-fluid jaquette" src="{{page.suggestion-2}}">
+					<img class="img-fluid jaquette" src="{{page.suggestion-3}}">
+					<img class="img-fluid jaquette" src="{{page.suggestion-4}}">
+					<img class="img-fluid jaquette" src="{{page.suggestion-5}}">
+					<a href="ctareco.html"><img class="img-fluid jaquette jaquette-blank" src="{{page.suggestion-blank}}"></a>
+				  </div>
+				  
+				</div>
+			  </div>
+			
+			<!-- CTA & ambiance -->		
+			<div class="w3-half">
+				<div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-right">
+					<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-flash fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Social</h2>
+					<i class="fa fa-step-backward fa-fw w3-large w3-text-teal"></i><button type="submit" class="button-cta">Recommencer</button></br>
+					<i class="fa fa-facebook-official fa-fw w3-large w3-text-teal"></i><form><button formaction="{{page.sharelink}}" class="button-cta"">Partager</button></form></br></br>
+					Recevoir une invitation pour <b>D<font color="#88cc00">\</font>srupt</b>, le réseau social des Gamers</br>
+					<input name="email" size="30" placeholder="email" type="email"><button type="submit" class="button-cta" style="margin-bottom:46px">Recevoir</button></form>
+				</div>
+			</div>
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+</body>
+</html>

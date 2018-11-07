@@ -17,19 +17,24 @@ title: Gamer Profile
 author: Asunder
 email: contact@dsrupt.games
 description: >- # this means to ignore newlines until "baseurl:"
-  Find which kind of gamer you are.
+  Which kind of gamer are you ?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DsruptGames
-github_username:  jekyll
+github_username:  everasunder
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
 
-# Exclude from processing.
+  # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:

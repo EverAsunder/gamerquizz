@@ -1,0 +1,60 @@
+img.jaquette {
+    border: none;
+	max-height:100px;
+	max-width:75px;
+    border-radius: 5px;
+	margin: 14px 22px;
+	box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, 0.6);
+} 
+img.jaquette-blank {
+    border: 1px gray;
+	border-style: dashed;
+} 
+img.jaquette-blank:hover { 
+    color: yellow;
+}
+body {
+    background: url(../assets/body.jpg);
+    font: 12px/1.55 Arial,Helvetica;
+    color: #2f2f2f;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+img.leftright{
+	max-width: 400px;
+    max-height: 400px;  
+}
+#rcorners-avatar {
+    border-radius: 100px;
+    border: 1px solid #5f7981;
+    width: 200px;
+    height: 200px;    
+}
+img.level {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;   
+
+}
+button.button-cta {
+    background-color: #40caee;
+    border-radius: 10px;
+    border: 1px solid #40caee;
+    width: 90px;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin:20px 6px;
+    cursor: pointer;
+}
+button.button-cta:hover {
+    background-color: #f1f1f1;
+    color: #202020;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+
+}

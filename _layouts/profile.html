@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122214992-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-122214992-1');
+		</script>
+		<title>D\SRUPT - Profil</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title></title>
+		<!--   Responsive  -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--   Meta Réseaux sociaux  -->
+		<meta property="og:title" content="D\SRUPT - Ta Légende de Gamer" />
+		<meta property="og:type" content="Website" />
+		<meta property="og:description" content="Es-tu plutôt Tryhard, Coopératif ou Speedrunner ? Découvre ton profil de gamer en 6 questions !" />
+		<meta property="og:url" content="https://{{page.sharelink}}" />
+		<meta property="og:image" content="https://dsrupt.games/quizz/assets/images/Q1B.png">
+
+		<!--   Link -->
+		<link rel="stylesheet" href="assets/css/profile_w3.css">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/profile_bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/profile_mystyle.css">
+		<style>
+			html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+		</style>
+		<script type="text/javascript">
+			function get_profile() {
+				var result = /[&?]result=([^&]+)/.exec(location.search);
+				result = result ? result[0].replace(/"/g, '&quot;') : '';
+				document.write(result);
+				document.write(window.location.href);
+			}
+			function getUrlVars() {
+				var vars = {};
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+					vars[key] = value;
+				});
+				document.write(vars["result"]);
+			}
+		</script>
+
+	</head>
+
+	<body class="w3-light-grey">
+
+		<!-- Page Container -->
+		<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+		  <!-- The Grid -->
+			<div class="w3-row-padding">
+		  
+				<!-- Left Column -->
+				<div class="w3-third">
+					<!-- Main container -->
+					<div class="w3-white w3-text-grey w3-card-4 w3-margin-right">
+
+						<!-- Logo DSRUPT -->
+						<div align="center">
+							<img src="assets/images/dsrupt-linkedin.png">
+						</div>
+						<!--Name and title -->
+						<h2 style="padding-bottom:20px;" align="center"><span>{{page.heros-name}}, <i>{{page.heros-titre}}</i></span></h2>
+						<!-- Avatar -->
+						<div class="w3-display-container" align="center">
+							<img class="img-fluid" src="assets/images/avatars/{{page.heros-avatar}}" alt="Avatar">
+						</div>		
+						<!-- Biography -->
+						<div style="margin:15px"><i style="font-size: 13px">"{{page.ambiance}}"</i>
+							<hr>
+							<p><i class="fa fa-gamepad fa-fw w3-margin-right w3-large w3-text-teal"></i>Gamer</p>
+							<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Paris, FR</p>
+							<hr>
+
+							<!-- SKILLS -->
+							<!-- CTA add skills -->
+							<p class="w3-large"><b><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-teal"></i>Skills</b><a href="ctabeta.html"><i title="Editer mes compétences" class="fa fa-edit fa-fw w3-margin-right w3-large w3-text-gray" style="float:right"></a></i></p>
+							<!-- Container for skills -->
+							<div class="w3-container">
+							<div class="w3-half">
+									<div class="w3-left w3-margin-right w3-margin-bottom">{{page.Skill-1}}</div>
+								</div>
+								<div class="w3-half">
+									<div class="w3-light-grey w3-round-xlarge w3-small">
+										<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:{{page.Level-Skill-1}}%">{{page.Level-Skill-1}}%</div>
+									</div>
+									<br>
+								</div>
+								<div class="w3-half">
+									<div class="w3-left w3-margin-right w3-margin-bottom">{{page.Skill-2}}</div>
+								</div>
+								<div class="w3-half">
+									<div class="w3-light-grey w3-round-xlarge w3-small">
+										<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:{{page.Level-Skill-2}}%">{{page.Level-Skill-2}}%</div>
+									</div>
+									<br>
+								</div>
+								<div class="w3-half">
+									<div class="w3-left w3-margin-right w3-margin-bottom">{{page.Skill-3}}</div>
+								</div>
+								<div class="w3-half">
+									<div class="w3-light-grey w3-round-xlarge w3-small">
+										<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:{{page.Level-Skill-3}}%">{{page.Level-Skill-3}}%</div>
+									</div>
+								</div>
+							</div>
+
+							</div>
+						<br>
+					<!-- End container -->
+					</div>
+				<!-- End Left Column -->
+				</div>
+			<!-- Right Column -->
+			<div class="w3-twothird">
+			
+				<div title="Mettre à jour ma carrière de gamer" class="w3-container w3-card w3-white w3-margin-bottom w3-margin-right">
+					<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-gamepad fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Ton parcours possible de joueur<a href="ctabeta.html"><i class="fa fa-edit fa-fw w3-margin-right w3-large w3-text-gray" style="float:right"></a></i></h2>
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>{{page.parcours-jeu1}}</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Juillet 2018 - <span class="w3-tag w3-teal w3-round">en cours</span></h6>
+						<p><b>Mon opinion : </b>{{page.parcours-jeu1-opinion}}</p>
+						<hr>
+					</div>
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>{{page.parcours-jeu2}}</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Avril 2018 - Juillet 2018</h6>
+						<p><b>Mon opinion : </b>{{page.parcours-jeu2-opinion}}</p>
+						<hr>
+					</div>
+				</div>
+
+				<!-- Recommendations -->
+				<div class="w3-half">
+					<div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-right">
+						<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-trophy fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Ton Top 5</h2>
+						<div class="w3-container">
+							<img class="img-fluid jaquette" src="assets/images/covers/{{page.suggestion-1}}" title="{{page.suggestion-1-tooltip}}">
+							<img class="img-fluid jaquette" src="assets/images/covers/{{page.suggestion-2}}" title="{{page.suggestion-2-tooltip}}">
+							<img class="img-fluid jaquette" src="assets/images/covers/{{page.suggestion-3}}" title="{{page.suggestion-3-tooltip}}">
+							<img class="img-fluid jaquette" src="assets/images/covers/{{page.suggestion-4}}" title="{{page.suggestion-4-tooltip}}">
+							<img class="img-fluid jaquette" src="assets/images/covers/{{page.suggestion-5}}" title="{{page.suggestion-5-tooltip}}">
+							<a href="ctareco.html"><img class="img-fluid jaquette jaquette-blank" src="assets/images/covers/blank.jpg" title="Ajouter un jeu ?"></a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- CTA & ambiance -->		
+				<div class="w3-half">
+					<div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-right">
+						<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-flash fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Social</h2>
+						<i class="fa fa-step-backward fa-fw w3-large w3-text-teal"></i><a href="https://dsrupt.games/quizz?utm_source=dsruptgames&utm_medium=boutonrecommencer&utm_campaign=boutonrecommencer"><button type="submit" class="button-cta">Recommencer</button></a></br>
+						<i class="fa fa-facebook-official fa-fw w3-large w3-text-teal"></i><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//{{page.sharelink}}" target="_blank"><button type="submit" class="button-cta">Partager</button></a></br></br>
+						Recevoir une invitation pour <b>D<font color="#40acee">\</font>SRUPT</b>, le réseau social des Gamers</br>
+						<form method="POST" action="https://formspree.io/knowyourmeta@gmail.com">
+  							<input type="email" size="30" name="email" placeholder=" ton email">
+ 							<button type="submit" class="button-cta">Recevoir</button>
+						</form></br>					
+					</div>
+				</div>
+				
+			<!-- End Right Column -->
+			</div>
+			
+		  <!-- End Grid -->
+		  </div>
+		  
+		  <!-- End Page Container -->
+		</div>
+
+		<footer class="w3-container w3-teal w3-center w3-margin-top">
+			 <p></p>
+			 <a href="https://www.facebook.com/dsrupttalegende" target="_blank" style="color:white"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+			 <a href="https://www.instagram.com/dsrupt_/" target="_blank" style="color:white"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+<!-- 			 <i class="fa fa-snapchat w3-hover-opacity"></i>
+			 <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+			 <i class="fa fa-twitter w3-hover-opacity"></i>
+			 <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+			 <p>Created by D\SRUPT</p>
+		</footer>
+
+	</body>
+</html>
